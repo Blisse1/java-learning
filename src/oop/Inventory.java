@@ -14,10 +14,17 @@ public class Inventory {
         items.add(item);
     }
 
+    //public void addItem(String name, int quantity, String type){
+        //items.add(new Item(name, quantity, type));
+    //}
+
+    public void addItem(String name, int quantity, int damage, String type){
+        items.add(new Weapon(name, quantity, damage, type));
+    }
+
     public void displayInventory(){
         for(Item item : items){
-            System.out.println("The name of your item is: " + item.getName() +
-                    ". The quantity of your item is: " + item.getQuantity());
+            item.displayInfo();
         }
     }
 }

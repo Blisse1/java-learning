@@ -7,7 +7,7 @@ package oop;
 // Records automatically generate essential methods like constructors, equals(), hashCode(), and toString(), reducing boilerplate code
 
 // This is a data-carrier class
-public class Item {
+public abstract class Item {
     // not assigned a value because each time it is going to be different
     private final String name;
     private final int quantity; // final means that it cant be modified or extended
@@ -25,4 +25,12 @@ public class Item {
     public int getQuantity(){
         return quantity;
     }
+
+    //@Override // this is happening at runtime
+    // we overwrote this built-in method
+    //public String toString(){
+        //return "Item: " + name + ", Quantity: " + quantity;
+    //}
+
+    public abstract String displayInfo();
 }
