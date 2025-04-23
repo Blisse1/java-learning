@@ -22,11 +22,11 @@ public class Weapon extends Item {
         return type;
     }
 
-    //@Override
-    //public String toString(){
-        //return "Weapon: " + getName() + ", Quantity: " + getQuantity() + ", Damage: " + getDamage() +
-                //", Type: " + getType();
-    //}
+//    @Override
+//    public String toString(){
+//        return "Weapon: " + getName() + ", Quantity: " + getQuantity() + ", Damage: " + getDamage() +
+//                ", Type: " + getType();
+//    }
 
     @Override
     public String displayInfo(){
