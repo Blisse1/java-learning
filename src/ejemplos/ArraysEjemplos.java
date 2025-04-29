@@ -23,6 +23,10 @@ public class ArraysEjemplos {
         asd[0] = "asd";
 
         System.out.println(asd[0]);
+//        String [] verbs = { "run", "jump", someWord.toString() };
+//        Button [] controls = { stopButton, new Button("Forwards"), new Button("Backwards") };
+//        // All types are subtypes of Object
+//        Object [] objects = { stopButton, "A word", null}
 
         String str = "foo";
         b = (str instanceof String);
