@@ -1,6 +1,8 @@
 package ejemplos;
 
 public class AnnalynsInfiltration {
+    final String asd = "asd";
+
     public static boolean canFastAttack(boolean knightIsAwake){
         return !knightIsAwake;
     }

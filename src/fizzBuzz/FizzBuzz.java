@@ -1,6 +1,7 @@
 package fizzBuzz;
 
 import ejemplos.AnnalynsInfiltration;
+import ejemplos.Chapter5;
 import ejemplos.LogLevels;
 
 import java.util.Scanner;
@@ -36,7 +37,10 @@ public class FizzBuzz {
 //            System.out.println("Exception while reading input: " + e);
 //        }
 //    }
-        var result = AnnalynsInfiltration.canFastAttack(true);
-        System.out.println(result);
+        var asd = new Chapter5();
+        asd.mass = 45.22;
+//        System.out.println(ddd);
+//        var result = AnnalynsInfiltration.canFastAttack(true);
+//        System.out.println(result);
     }
 }
